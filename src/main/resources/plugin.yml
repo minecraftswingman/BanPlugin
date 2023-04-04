@@ -1,0 +1,15 @@
+name: BanPlugin
+version: '${project.version}'
+main: com.pessulum.plugin.banclass.BanClass
+api-version: 1.18
+commands:
+  setLives:
+    description: Change the amount of lives of a single player
+  setKills:
+    description: Change the amount of kills a player got
+  setMaxDeaths:
+    description: Changes the amount of lives for every player that ever graced your server
+  lives:
+    description: returns lives amount of a player
+  kills:
+    description: returns kills amount of a player
